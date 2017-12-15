@@ -220,9 +220,6 @@ if (isset($_POST['month']) && $_POST['year']) {
                                     } else {
                                         echo '<td class="dayNow tdHover tdDate">' . $dayNow . '</td>';
                                     }
-                                    ?>
-                                    </td>
-                                    <?php
                                     $i++;
                                 }
                                 $i = 6;
