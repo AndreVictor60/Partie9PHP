@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 15 déc. 2017, 08:39:44
+    Author     : victor
+*/
+.table{
+    padding: 0;
+}
+.dayNow{
+    background-color: #87CEEB;
+}
+.tdDate{
+    height: 75px;
+    width: 50px;
+}
+thead{
+    background-color: #808080;
+
+}
+.tdDisable{
+    background-color: #F2F2F2;
+}
+.tdHover:hover{
+    color:black;
+    background: rgba(255, 222, 173, 0.3) /* Green background with 30% opacity */
+}
+.title{
+    color: #858585;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.form-date{
+    margin-top: 15px;
+    text-align: center;
+}
