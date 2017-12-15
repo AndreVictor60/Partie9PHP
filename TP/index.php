@@ -216,9 +216,15 @@ if (isset($_POST['month']) && $_POST['year']) {
                                     }
 
                                     if ($day != $dayNow) {
-                                        echo '<td class="tdHover tdDate">' . $day . '</td>';
+                                        ?>
+                                        <td class="tdHover tdDate">
+                                            <?php echo $day
+                                            ?></td>
+                                        <?php
                                     } else {
-                                        echo '<td class="dayNow tdHover tdDate">' . $dayNow . '</td>';
+                                        ?>
+                                        <td class="dayNow tdHover tdDate"><?php echo $dayNow ?></td>
+                                        <?php
                                     }
                                     $i++;
                                 }
