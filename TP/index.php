@@ -123,7 +123,7 @@ if (isset($_POST['month']) && $_POST['year']) {
                          * si 1970 n'est pas supérieur ou égal l'année 2030 (fin 32 bits)
                          * chaque boucle on fait année+ 1
                          */
-                        for ($year = 1970; $year <= 2030; $year++) {
+                        for ($year = 1970; $year <= $yearNowA; $year++) {
                             if ($year == $yearNowA) {
                                 ?>
                                 <option name="<?php echo $yearNowA ?>" selected="selected"><?php echo $yearNowA ?></option>
