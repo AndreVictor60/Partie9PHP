@@ -5,6 +5,7 @@
     </head>
     <body>
         <nav>
+            <!-- TEST -->
             <h1>Liste des exercices</h1>
             <lu>
                 <li><a href="Exercice1/">Exercice 1</a></li>
